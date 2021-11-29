@@ -1,4 +1,11 @@
-# measuredassaultberry
+# INTRODUCTION
+
 Config files for my GitHub profile.
 
-Just some testing
+# AIMS & OBJECTIVES
+
+We're here to share and promote information
+
+- About our scripts
+- About our methods
+- About our versions
