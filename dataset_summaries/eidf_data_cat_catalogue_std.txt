@@ -1,0 +1,9 @@
+Property,URI,Range,EIDF Value / Note,Cardinality,Requirement
+title,dct:title,rdfs:Literal,,1..n,Mandatory
+description,dct:descriptipn,rdfs:Literal,,1..n,Mandatory
+homepage,foaf:homepage,foaf:Document,,1..1,Mandatory
+license,dct:license,dct:LicenseDocument,,1..1,Mandatory
+publisher,dct:publisher,foaf:Agent,,1..1,Mandatory
+dataset,dcat:dataset,dcat:Dataset,,1..n,Mandatory
+language,dct:language,fct:LinguisticSystem,,1..n,Mandatory
+update,dct:modified,rdfs:Literal,,1..1,Mandatory
