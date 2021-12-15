@@ -1,0 +1,25 @@
+Property,URI,Range,EIDF Value / Note,Cardinality,Requirement
+access URL,dcat:accessURL,rdfs:Resource,1..n,Mandatory
+description,dct:description,rdfs:Literal,1..n,Mandatory
+format,dct:format,dct:MediaTypeOrExtent,1..n,Mandatory
+identifier,dct:identifier,rdfs:Literal,1..1,Mandatory
+licence,dct:license,dct:LicenseDocument,1..1,Mandatory
+availability,dcatap:availability,skos:Concept,0..1,Recommended
+access service,dcat:accessService,dcat:DataService,0..n,Optional
+byte size,dcat:byteSize,rdfs:Literal,0..1,Optional
+checksum,spdx:checksum,spdx:Checksum,0..1,Optional
+compression format,dcat:compressForm,dct:MediaType,0..1,Optional
+documentation,foaf:page,foaf:Document,0..n,Optional
+download URL,dcat:downloadURL,rdfs:Resource,0..n,Optional
+has policy,odrl:hasPolicy,odrl:Policy,0..1,Optional
+language,dct:language,dct:LinguisticSystem,0..n,Optional
+linked schemas,dct:conformsTo,dct:Standard,0..n,Optional
+media type,dcat:mediaType,dct:MediaType,0..1,Optional
+packaging format,dcat:packageFormat,dct:MediaType,0..1,Optional
+release date,dct:issued,rdfs:Literal,0..1,Optional
+rights,dct:rights,dct:RightStatement,0..1,Optional
+spatial resolution,dcat:soatialresolutionInMeters,xsd:decimal,0..n,Optional
+status,adms:status,skos:Concept,0..1,Optional
+temporal resolution,dcat:temporalResolution,xsd:duration,0..n,Optional
+title,dct:title,rdfs:Literal,0..n,Optional
+update,dct:modified,rdfs:Literal,0..1,Optional
